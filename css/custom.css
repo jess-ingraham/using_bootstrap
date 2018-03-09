@@ -1,0 +1,161 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+header h1{
+	text-align: center;
+	font-size: 60px;
+	/*font-weight:bold;*/
+	font-family: "Dancing Script", cursive;
+}
+h1 strong{
+	color:lightpink;
+	font-size:75px;
+}
+nav.navbar{
+	background-color: lightpink;
+	border-color:white;
+}
+.navbar-nav li a{
+	color:white;
+	font-size: 16px;
+}
+.navbar-toggle{
+	background-color: white;
+	border:1px solid lightgrey;
+}
+span.icon-bar{
+	background-color: lightpink;
+}
+li.active, li.active a{
+	background-color: white;
+	color:black;
+}
+.navbar-nav li a:hover{
+	color:black;
+}
+
+footer {
+	margin-top: 50px;
+	line-height: 100px;
+	height: 100px;
+}
+
+footer .social_media a img {
+	max-width: 50px;
+	margin-left: 20px;
+}
+footer .social_media a:hover img{
+	text-decoration: none;
+}
+
+footer .social_media a img:hover{
+	max-width: 55px;
+
+}
+
+.carousel-inner .item img{
+	margin:0 auto;
+}
+.carousel{
+/*	padding-top: 50px;*/
+	border-style: solid;
+	border-width: 20px;
+	border-color: white;
+	/*display:hidden;*/
+
+}
+.carousel-caption{
+	background-color: lightpink;
+	opacity: 0.9;
+
+	color:black;
+	text-shadow: none;
+	font-weight: normal;
+	text-align: left;
+
+	padding:10px;
+
+	position: absolute;
+	width:30%;
+	left:80px;
+	right:auto;
+}
+
+.carousel-control, .carousel-control:hover, .carousel-control:focus{
+	opacity: 0;
+}
+
+article h2{
+	background-color: lightpink;
+	padding:3px;
+/*	border:2px solid white;
+*/}
+article p{
+	background-color: white;
+	padding:5px;
+}
+p#with-btn{
+	padding-bottom:none;
+}
+.btn{
+	color:black;
+	background-color: lightpink;
+	margin-right: 0px;
+	margin-left:auto;
+}
+.btn:hover{
+	color:white;
+}
+
+.blockquote-reverse{
+	font-size: 14px;
+	height:200px;
+}
+/*----------------------------------------*/
+
+article#quotes blockquote{
+	background-color: white;
+	border-top: 5px solid lightpink;
+	border-bottom:5px solid lightpink;
+
+}
+
+article#quotes h2{
+	padding-left:10px;
+}
+a.navbar-brand{
+	color:black;
+}
+a.navbar-brand:hover{
+	color:black;
+}
+
+input#message{
+	height:200px;
+}
+
+/*----------------------------------*/
+#food h2{
+	background-color: lightpink;
+	padding:3px;
+}
+#food article{
+
+	border:7px solid white;
+	padding-top: 5px;
+	background-color: white;
+}
+
+#food img{
+	margin:auto;
+}
+
+
+/*---------------------------------------------------------------*/
+#plain-link{
+	color:lightpink;
+}
